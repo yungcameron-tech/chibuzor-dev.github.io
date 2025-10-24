@@ -1,0 +1,181 @@
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  /* Tablets and smaller */
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Small phones */
+  h1 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+.Navbar{
+    display: flex;
+    width: auto;
+    column-gap: 900px;
+    margin-left: 15px;
+    color: blue;
+}
+.sphere{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+}
+.sphere li{
+    justify-content: end;
+    padding: 10px;
+
+}
+.MyPortfolio h2{
+    margin: 0;
+    list-style: none;
+    text-align: start;
+    padding-left: 0%;
+    margin-left: 0%;
+}
+.body1{
+    display: flex;
+    margin-top: 150px;
+    column-gap: 250px;
+    margin-left: 40px;
+    
+}
+.introduction h2{
+    font-size: 35px;
+}
+.introduction h2{
+    font-size: 35px;
+    color: blue;
+    margin-top: 0;
+}.introduction h3{
+    font-size: 35px;
+    color: blue;
+    margin-top: 0;
+}
+.sphere li a{
+    text-decoration: none;
+}
+.skillsection h2{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    color:blue;
+}
+.skillsection  u{
+    color:blue;
+}
+
+.skillsection2{
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+
+.mySkills{
+    height: 150px;
+}
+.key1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sweet{
+    margin-bottom: 30px;
+}
+.contentc{
+    color: blue;
+    font-size: larger;
+}
+.content3{
+    border: 2px solid black;
+    height: 70px;
+    width:  150px;
+    margin: 10px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(101, 85, 141);
+}
+.content4{
+    border: 2px solid black;
+    height: 70px;
+    width:  150px;
+    margin: 5px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(101, 85, 141);
+}
+.key1{
+    text-align: center;
+}
+.mission{
+    display: flex;
+    justify-content: center;
+}
+.sweet{
+    margin: 50px;
+    margin-top: 55px;
+}
+.introduction{
+    margin: 15px;
+    margin-bottom:  65px;
+}
+.content6{
+    border: 2px solid black;
+    height: 70px;
+    width:  150px;
+    margin: 5px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(101, 85, 141);
+}
+.contenta h3{
+    color: blue;
+    font-size: larger;
+}
+.mission h2{
+    color: blue;
+}
+.skillsection{
+    margin: 30px;
+    margin-top: 30px;
+}
+.vector{
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+.projects{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
